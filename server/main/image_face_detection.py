@@ -22,4 +22,4 @@ for index, current_face_location in enumerate(all_face_locations):
     cv2.imshow("Face no. " + str(index + 1), current_face_image)
 
     cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
